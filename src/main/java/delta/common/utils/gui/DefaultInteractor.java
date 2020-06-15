@@ -3,31 +3,24 @@ package delta.common.utils.gui;
 import java.awt.event.MouseEvent;
 
 /**
+ * Default base class for Interactors.
  * @author DAM
  */
 public class DefaultInteractor implements Interactor
 {
-  /**
-   *
-   * @see delta.common.utils.gui.Interactor#handleMousePressed(java.awt.event.MouseEvent)
-   */
+  @Override
   public boolean handleMousePressed(MouseEvent event)
   {
     return false;
   }
 
-  /**
-   *
-   * @see delta.common.utils.gui.Interactor#handleMouseDragged(java.awt.event.MouseEvent)
-   */
+  @Override
   public boolean handleMouseDragged(MouseEvent event)
   {
     return false;
   }
 
-  /**
-   * @see delta.common.utils.gui.Interactor#handleMouseReleased(java.awt.event.MouseEvent)
-   */
+  @Override
   public boolean handleMouseReleased(MouseEvent event)
   {
     return false;

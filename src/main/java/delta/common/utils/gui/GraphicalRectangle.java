@@ -5,12 +5,17 @@ import java.awt.Point;
 import java.awt.Rectangle;
 
 /**
- * @author dm
+ * Rectangle graphical object.
+ * @author DAM
  */
 public class GraphicalRectangle extends GraphicalObject
 {
   private Rectangle _rectangle;
 
+  /**
+   * Constructor.
+   * @param r Rectangle to use as template.
+   */
   public GraphicalRectangle(Rectangle r)
   {
     _rectangle=new Rectangle(r);
